@@ -145,7 +145,7 @@ export default function BasicDetailsPage() {
         <button className="nav-btn" onClick={() => setPage("form")}>Form</button>
       </div>
 
-      {/* CENTER AREA */}
+      
       {page === "home" && (
         <div className="center-area">
           <h2>My Details</h2>
