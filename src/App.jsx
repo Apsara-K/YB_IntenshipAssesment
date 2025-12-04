@@ -18,7 +18,7 @@ export default function BasicDetailsPage() {
     const { name, value } = e.target;
     setDetails({ ...details, [name]: value });
 
-    // Simple validations
+    
     let error = "";
     if (["name", "city", "school", "college"].includes(name)) {
       if (/[^a-zA-Z\s]/.test(value)) error = "Only letters allowed";
